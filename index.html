@@ -47,6 +47,29 @@
       .btn {
             background-color: rgb(251, 194, 22);
       }
+      
+      a {
+            color: rgb(251, 194, 22);
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+     
+      .datepicker-date-display {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1 auto;
+            -ms-flex: 1 auto;
+            flex: 1 auto;
+            background-color:  rgb(251, 194, 22);
+            color: #fff;
+            padding: 20px 22px;
+            font-weight: 500;
+      }
+  
+      .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+            color:  #2ab54c;
+            padding: 0 1rem;
+      }
+
       .page-footer .footer-copyright {
           background-color: rgb(36, 64, 55);
       }
@@ -58,35 +81,38 @@
   <header>
     <nav class="nav-wrapper transparent">
         <div class="container">
-            <a href="" class="brand-logo">Packers Nation Invasion</a>
+            <a href="https://stahlwalker.github.io/greenbaypackers/" class="brand-logo">Packers Nation Invasion</a>
             <a href="" class="sidenav-trigger" data-target="mobile-menu">
                 <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#services">Tradition</a></li>
-                <li><a href="#photos">Games</a></li>
+                <li><a href="#Tradition">Tradition</a></li>
+                <li><a href="#Games">Games</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#" class="btn-floating btn-small yellow darken-2">
+                <li><a href="https://www.instagram.com/stahlwalker11/" class="btn-floating btn-small yellow darken-2">
                     <i class="fab fa-instagram"></i>
                 </a></li>
-                <li><a href="#" class="btn-floating btn-small yellow darken-2">
+                <li><a href="https://www.facebook.com/lucas.stahl.75" class="btn-floating btn-small yellow darken-2">
                     <i class="fab fa-facebook"></i>
                 </a></li>
-                <li><a href="#" class="btn-floating btn-small yellow darken-2">
+                <li><a href="https://twitter.com/LucasStahl11" class="btn-floating btn-small yellow darken-2">
                     <i class="fab fa-twitter"></i>
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/lucasstahl" class="btn-floating btn-small yellow darken-2">
+                    <i class="fab fa-linkedIn"></i>
                 </a></li>
             </ul>
             <ul class="sidenav grey lighten-2" id="mobile-menu">
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Traditions</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Tradition">Tradition</a></li>
+                <li><a href="#Games">Games</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
   </header>
 
 <!-- services / tabs -->
-<section class="container section scrollspy" id="services">
+<section class="container section scrollspy" id="Tradition">
     <div class="row">
         <div class="col s12 l4">
             <h2 class="green-text text-darken-2">What is Packers Nation Invasion</h2>
@@ -104,13 +130,16 @@
             </ul>
             <div class="col s12" id="home">
                 <p class="flow-text green-text text-darken-2">HOME</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+                <p>9/24/17 Packers vs Bengals 27-24 W</p>
+                <p>10/18/15 Packers vs Chargers 27-20 W</p>
+                <p>12/9/12 Packers vs Lions 27-20 W</p>
             </div>
             <div class="col s12" id="away">
                 <p class="flow-text green-text text-darken-2">AWAY</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+                <p>12/16/18 Packers at Chicago 17-24 L</p>
+                <p>1/1/17 Packers at Detroit 31-24 W</p>
+                <p>9/11/16 Packers at Jacksonville 27-23 W</p>
+                <p>10/24/14 Packers at Miami 27-24 W</p>
             </div>
         </div>
     </div>
@@ -124,7 +153,16 @@
 </div>
 
    <!-- photo / grid -->
-   <section class="container section scrollspy" id="photos">
+   <section class="container section scrollspy" id="Games">
+        <div class="row">
+                <div class="col s12 l4 offset-l1 push-l7">
+                  <img src="img/KC.jpg" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l1 pull-l5 right-align">
+                  <h2 class="grey-text">Packers at Kansas City</h2>
+                  <p>TBD</p>
+                </div>
+              </div>
         <div class="row">
           <div class="col s12 l4">
               <img src="img/Chicago2.jpeg" alt="" class="responsive-img materialboxed">
@@ -218,8 +256,8 @@
                                 <input type="checkbox">
                                 <span>Editing</span>
                             </label>
-                        </p> -->
-                    </div>
+                        </p>
+                    </div> -->
                     <div class="input-field center">
                         <button class="btn">Submit</button>
                     </div>
@@ -234,22 +272,22 @@
             <div class="row">
                 <div class="col s12 l6">
                     <h5>About Me</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium, eius ab in quidem accusamus doloribus consequuntur sit fugit sint asperiores beatae tempora illum iste dolor fugiat rerum maxime. Itaque.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta laudantium, eius ab in quidem accusamus doloribus consequuntur sit fugit sint asperiores beatae tempora illum iste dolor fugiat rerum maxime. Itaque.</p>
+                    <p>My name is Lucas Stahl and I'm a web designer, marketer and Packers fan.</p>
+                    <p>My family and make it a point to support the team yearly by traveling to a new city to take in the festivities.</p>
                 </div>
                 <div class="col s12 l4 offset-l2">
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="" class="yellow-text text-darken-2">Facebook</a>
+                        <li><a href="https://www.facebook.com/lucas.stahl.75" class="yellow-text text-darken-2">Facebook</a>
                             <i class="fab fa-facebook"></i>
                         </li>
-                        <li><a href="" class="yellow-text text-darken-2">Twitter</a>
+                        <li><a href="https://twitter.com/LucasStahl11" class="yellow-text text-darken-2">Twitter</a>
                             <i class="fab fa-twitter"></i>
                         </li>
-                        <li><a href="" class="yellow-text text-darken-2">LinkedIn</a>
+                        <li><a href="https://www.linkedin.com/in/lucasstahl" class="yellow-text text-darken-2">LinkedIn</a>
                             <i class="fab fa-linkedIn"></i>
                         </li>
-                        <li><a href="" class="yellow-text text-darken-2">Instagram</a>
+                        <li><a href="https://www.instagram.com/stahlwalker11/" class="yellow-text text-darken-2">Instagram</a>
                             <i class="fab fa-instagram"></i>
                         </li>
                     </ul>
@@ -257,7 +295,7 @@
             </div>
         </div>
         <div class="footer-copyright yellow-text text-darken-2">
-            <div class="container center-align">&copy; 2019 Stahlwalker</div>
+            <div class="container center-align"><a href="https://www.stahlwalker.org/">&copy; 2019 Stahlwalker</a></div>
         </div>
     </footer>
 
