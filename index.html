@@ -34,7 +34,7 @@
           padding-bottom: 4vw;
       }
       .tabs .indicator{
-          background-color: #4db6ac;
+          background-color: rgb(36, 64, 55);
       }
       .tabs .tab a:focus, .tabs .tab a:focus.active{
           background: transparent;
@@ -44,9 +44,12 @@
               min-height: 500px;
           }
       }
+      .btn {
+            background-color: rgb(251, 194, 22);
+      }
       .page-footer .footer-copyright {
           background-color: rgb(36, 64, 55);
-}
+      }
   </style>
 </head>
 <body>
@@ -60,8 +63,8 @@
                 <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#photos">Photos</a></li>
                 <li><a href="#services">Tradition</a></li>
+                <li><a href="#photos">Games</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#" class="btn-floating btn-small yellow darken-2">
                     <i class="fab fa-instagram"></i>
@@ -74,13 +77,51 @@
                 </a></li>
             </ul>
             <ul class="sidenav grey lighten-2" id="mobile-menu">
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Traditions</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </nav>
   </header>
+
+<!-- services / tabs -->
+<section class="container section scrollspy" id="services">
+    <div class="row">
+        <div class="col s12 l4">
+            <h2 class="green-text text-darken-2">What is Packers Nation Invasion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+                <li class="tab col s6">
+                    <a href="#home" class="green-text text-darken-2">Home</a>
+                </li>
+                <li class="tab col s6">
+                    <a href="#away" class="green-text text-darken-2">Away</a>
+                </li>
+            </ul>
+            <div class="col s12" id="home">
+                <p class="flow-text green-text text-darken-2">HOME</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+            </div>
+            <div class="col s12" id="away">
+                <p class="flow-text green-text text-darken-2">AWAY</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+        <img src="img/Lambeau2.jpg" alt="" class="responsive-img">
+    </div>
+</div>
 
    <!-- photo / grid -->
    <section class="container section scrollspy" id="photos">
@@ -89,7 +130,7 @@
               <img src="img/logoGB.jpg" alt="" class="responsive-img materialboxed">
           </div>
           <div class="col s12 l6 offset-l1">
-            <h2 class="grey-text">Highlights</h2>
+            <h2 class="grey-text">Packers at Chicago</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
           </div>
         </div>
@@ -98,7 +139,7 @@
               <img src="img/logoGB.jpg" alt="" class="responsive-img materialboxed">
           </div>
           <div class="col s12 l6 offset-l1 pull-l5 right-align">
-            <h2 class="grey-text">Video</h2>
+            <h2 class="grey-text">Packers vs Cincinnati</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
           </div>
         </div>
@@ -107,47 +148,19 @@
               <img src="img/logoGB.jpg" alt="" class="responsive-img materialboxed">
           </div>
           <div class="col s12 l6 offset-l1">
-            <h2 class="grey-text">Media Commentary</h2>
+            <h2 class="grey-text">Packers at Detriot</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
           </div>
         </div>
-    </section>
-
-  <!-- parallax -->
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="img/Lambeau2.jpg" alt="" class="responsive-img">
-        </div>
-    </div>
-  <!-- services / tabs -->
-    <section class="container section scrollspy" id="services">
         <div class="row">
-            <div class="col s12 l4">
-                <h2 class="teal-text text-lighten-2">What I do...</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
+            <div class="col s12 l4 offset-l1 push-l7">
+                <img src="img/logoGB.jpg" alt="" class="responsive-img materialboxed">
             </div>
-            <div class="col s12 l6 offset-l2">
-                <ul class="tabs">
-                    <li class="tab col s6">
-                        <a href="#webdesign" class="teal-text text-lighten-2">Web Design</a>
-                    </li>
-                    <li class="tab col s6">
-                        <a href="#marketing" class="teal-text text-lighten-2">Marketing</a>
-                    </li>
-                </ul>
-                <div class="col s12" id="webdesign">
-                    <p class="flow-text teal-text text-lighten-2">WEB DESIGN</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                </div>
-                <div class="col s12" id="marketing">
-                    <p class="flow-text teal-text text-lighten-2">MARKETING</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias consectetur eius aliquid quasi facilis, eligendi velit, nobis delectus rerum porro illum explicabo eum, aperiam quam dignissimos quo fugit eveniet recusandae?</p>
-                </div>
+            <div class="col s12 l6 offset-l1 pull-l5 right-align">
+              <h2 class="grey-text">Packers at Jacksonville</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
             </div>
-        </div>
+          </div>
     </section>
 
   <!-- parallax -->
@@ -181,9 +194,9 @@
                     </div>
                     <div class="input-field">
                         <input type="text" id="date" class="datepicker">
-                        <label for="date">Choose a date you need me for...</label>
+                        <label for="date">Choose the date of your next game and maybe I'll see you there...</label>
                     </div>
-                    <div class="input-field">
+                    <!-- <div class="input-field">
                         <p>Services required...</p>
                         <p>
                             <label>
@@ -196,7 +209,7 @@
                                 <input type="checkbox">
                                 <span>Editing</span>
                             </label>
-                        </p>
+                        </p> -->
                     </div>
                     <div class="input-field center">
                         <button class="btn">Submit</button>
@@ -218,23 +231,23 @@
                 <div class="col s12 l4 offset-l2">
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="" class="teal-text text-lighten-2">Facebook</a>
+                        <li><a href="" class="yellow-text text-darken-2">Facebook</a>
                             <i class="fab fa-facebook"></i>
                         </li>
-                        <li><a href="" class="teal-text text-lighten-2">Twitter</a>
+                        <li><a href="" class="yellow-text text-darken-2">Twitter</a>
                             <i class="fab fa-twitter"></i>
                         </li>
-                        <li><a href="" class="teal-text text-lighten-2">LinkedIn</a>
+                        <li><a href="" class="yellow-text text-darken-2">LinkedIn</a>
                             <i class="fab fa-linkedIn"></i>
                         </li>
-                        <li><a href="" class="teal-text text-lighten-2">Instagram</a>
+                        <li><a href="" class="yellow-text text-darken-2">Instagram</a>
                             <i class="fab fa-instagram"></i>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
+        <div class="footer-copyright yellow-text text-darken-2">
             <div class="container center-align">&copy; 2019 Stahlwalker</div>
         </div>
     </footer>
