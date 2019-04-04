@@ -71,6 +71,18 @@
           color:  rgb(251, 194, 22);
       }
 
+      .input-field {
+          color: green;
+      }
+
+      textarea.materialize-textarea:focus:focus:not([readonly])+label{
+          color: green;
+      }
+
+    input:not([type]):focus:focus:not([readonly])+label, input[type=text]:not(.browswer-default):focus:not([readonly])+label,input[type=email]:not(.browser-default):focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label{
+        color: green;
+    }
+   
       .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
             color:  #2ab54c;
             padding: 0 1rem;
@@ -270,7 +282,7 @@
                         </p>
                     </div> -->
                     <div class="input-field center">
-                        <button class="btn">Submit</button>
+                        <button class="btn green">Submit</button>
                     </div>
                 </form>
             </div>
