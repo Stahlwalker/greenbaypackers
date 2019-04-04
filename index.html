@@ -64,7 +64,10 @@
             padding: 20px 22px;
             font-weight: 500;
       }
-  
+      .Single {
+          font-size: 36px;
+      }
+
       .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
             color:  #2ab54c;
             padding: 0 1rem;
@@ -119,6 +122,9 @@
             <p>Packers Nation Invasion is a yearly trip my family and I take to support the Green Bay Packers as they take on road games. We started invading cities in 2012 with a goal of visiting all 32 stadiums.</p>
             <p>On our journey, we get to take in the local festivities, eat amazing food and get away from the everyday grind. Packers fans have a great following and it’s truly amazing to see how an away team can come in and take over a stadium, there is nothing else like it.</p>
             <p>Listed is a stat sheet of the games attended both home and away. Our scored card is 6-1.</p>
+            <p>Stadiums visited:
+                <span class="Single">5</span>
+            </p>    
         </div>
         <div class="col s12 l6 offset-l2">
             <ul class="tabs">
@@ -314,7 +320,20 @@
         });
         $('.tooltipped').tooltip();
         $('.scrollspy').scrollSpy();
+
+        $({ Counter: 0 }).animate({
+        Counter: $('.Single').text()
+        }, {
+        duration: 1000,
+        easing: 'swing',
+        step: function() {
+            $('.Single').text(Math.ceil(this.Counter));
+        }
+        });
+
     });
+
+ 
   </script>
 </body>
 </html>
