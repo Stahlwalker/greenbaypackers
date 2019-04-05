@@ -86,14 +86,18 @@
     input:not([type]):focus:focus:not([readonly])+label, input[type=text]:not(.browswer-default):focus:not([readonly])+label,input[type=email]:not(.browser-default):focus:not([readonly])+label,textarea.materialize-textarea:focus:not([readonly])+label{
         color: green;
     }
-  
+
       .datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
-            color:  #2ab54c;
+            color:  green;
             padding: 0 1rem;
       }
 
+      button.datepicker-day-button, button.data-pika-year, button.data-pika-month, button.data-pika-day {
+          /* background-color: green; */
+      }
+
       .page-footer .footer-copyright {
-          background-color: rgb(36, 64, 55);
+          background-color: rgb(53, 77, 69);
       }
   </style>
 </head>
@@ -257,17 +261,17 @@
                 <form action="https://formsubmit.co/Stahl1109@gmail.com"
                 method="POST">
                     <div class="input-field">
-                        <i class="material-icons prefix">email</i>
+                        <i class="material-icons prefix" style="color:green">email</i>
                         <input type="email" name="email" id="email">
                         <label for="email">Your Email</label>
                     </div>
                     <div class="input-field">
-                        <i class="material-icons prefix">message</i>
+                        <i class="material-icons prefix" style="color:green">message</i>
                         <textarea id="message" name="message" class="materialize-textarea"></textarea>
                         <label for="message">Your message</label>
                     </div>
                     <div class="input-field">
-                        <input type="text" name="date" id="date" class="datepicker">
+                        <input type="text" name="date" id="date" class="datepicker" style="color:green">
                         <label for="date">What game are you going to?</label>
                     </div>
                     <!-- <div class="input-field">
