@@ -445,6 +445,10 @@
             $('.tooltipped').tooltip();
             $('.scrollspy').scrollSpy();
 
+            $('.sidenav li').click(() => {
+                $('.sidenav').sidenav('close');
+            });
+
             $({
                 Counter: 0
             }).animate({
