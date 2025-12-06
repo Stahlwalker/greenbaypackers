@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen">
       <Header />
       <Tradition />
-      <div className="w-full min-h-[600px] lg:min-h-[800px] bg-contain bg-center bg-no-repeat"
+      <div className="w-full min-h-[300px] lg:min-h-[800px] bg-contain bg-center bg-no-repeat"
            style={{ backgroundImage: `url(${baseUrl}img/nflmapcomplete.png)` }}>
       </div>
       <Games />
