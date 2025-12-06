@@ -5,10 +5,11 @@ import { BsTwitterX } from 'react-icons/bs'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const baseUrl = import.meta.env.BASE_URL
 
   return (
     <header className="relative min-h-[500px] lg:min-h-[1000px] bg-cover bg-center"
-            style={{ backgroundImage: 'url(/img/packers2.jpg)' }}>
+            style={{ backgroundImage: `url(${baseUrl}img/packers2.jpg)` }}>
       <nav className="bg-transparent">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-4">
