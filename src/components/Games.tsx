@@ -3,46 +3,47 @@ import { X } from 'lucide-react'
 
 const Games = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
+  const baseUrl = import.meta.env.BASE_URL
 
   const games = [
     {
-      image: '/img/Cleveland_9.21.25.jpeg',
+      image: `${baseUrl}img/Cleveland_9.21.25.jpeg`,
       title: 'Packers at Cleveland 2025',
       description: '9/21/25 Packers defense showed up and kept the Browns scoreless until the final 4 minutes which included a blocked field goal and a game winning 55 yard field goal by the Browns. 10-13 Packers Lose!',
       align: 'left'
     },
     {
-      image: '/img/Kansas 2.jpeg',
+      image: `${baseUrl}img/Kansas 2.jpeg`,
       title: 'Packers at Kansas City',
       description: '10/27/19 Rodgers threw for 305 yard and three touchdowns, two of them to Aaron Jones on a big night, 31-24 Packers Win!',
       align: 'right'
     },
     {
-      image: '/img/Chicago2.jpeg',
+      image: `${baseUrl}img/Chicago2.jpeg`,
       title: 'Packers at Chicago',
       description: '12/16/18 Bears clinch NFC North with victory, 17-24 Packers Lose!',
       align: 'left'
     },
     {
-      image: '/img/Detrioit.JPG',
+      image: `${baseUrl}img/Detrioit.JPG`,
       title: 'Packers at Detroit',
       description: '1/1/17 Rodgers-led Packers beat Lions to win NFC North in 31-24 Packers Win!',
       align: 'right'
     },
     {
-      image: '/img/Jacksonville.JPG',
+      image: `${baseUrl}img/Jacksonville.JPG`,
       title: 'Packers at Jacksonville',
       description: '9/11/16 Rodgers accounts for 3 TDs in 27-23 Packers Win!',
       align: 'left'
     },
     {
-      image: '/img/Miami.JPG',
+      image: `${baseUrl}img/Miami.JPG`,
       title: 'Packers at Miami',
       description: '10/12/14 Aaron Rodgers tosses TD with 3 seconds left for 27-24 Packers Win!',
       align: 'right'
     },
     {
-      image: '/img/packerscharger2.JPG',
+      image: `${baseUrl}img/packerscharger2.JPG`,
       title: 'Lambeau Field',
       description: 'Lambeau Field is the oldest continually operating NFL stadium. Known as The Frozen Tundra, Titletown USA.',
       align: 'left'

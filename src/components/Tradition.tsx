@@ -6,6 +6,7 @@ const Tradition = () => {
   const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 })
   const [isExpired, setIsExpired] = useState(false)
   const [activeTab, setActiveTab] = useState<'home' | 'away'>('home')
+  const baseUrl = import.meta.env.BASE_URL
 
   useEffect(() => {
     const countDownDate = new Date("Sept 7, 2025 19:20:00").getTime()
@@ -131,7 +132,7 @@ const Tradition = () => {
           {/* 2025 Schedule */}
           <div className="mt-8">
             <p className="text-green-700 text-xl mb-4">2025 Schedule</p>
-            <img src="/img/Packers_2025_schedule.jpeg" alt="2025 Schedule" className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition" />
+            <img src={`${baseUrl}img/Packers_2025_schedule.jpeg`} alt="2025 Schedule" className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition" />
           </div>
         </div>
       </div>

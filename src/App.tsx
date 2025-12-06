@@ -5,16 +5,18 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <div className="min-h-screen">
       <Header />
       <Tradition />
       <div className="w-full min-h-[600px] lg:min-h-[800px] bg-contain bg-center bg-no-repeat"
-           style={{ backgroundImage: 'url(/img/nflmapcomplete.png)' }}>
+           style={{ backgroundImage: `url(${baseUrl}img/nflmapcomplete.png)` }}>
       </div>
       <Games />
       <div className="w-full min-h-[400px] lg:min-h-[600px] bg-cover bg-center"
-           style={{ backgroundImage: 'url(/img/packers.jpg)' }}>
+           style={{ backgroundImage: `url(${baseUrl}img/packers.jpg)` }}>
       </div>
       <Contact />
       <Footer />
