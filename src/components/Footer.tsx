@@ -59,7 +59,7 @@ const Footer = () => {
 
       <div className="bg-packers-darkgreen text-yellow-400 py-4">
         <div className="container mx-auto text-center">
-          <a href="https://lucasstahl.com/" className="hover:text-yellow-500 transition">
+          <a href="https://lukestahl.io/" className="hover:text-yellow-500 transition">
             &copy; 2019 Luke Stahl
           </a>
         </div>
