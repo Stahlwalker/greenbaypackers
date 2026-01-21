@@ -9,7 +9,7 @@ const Tradition = () => {
   const baseUrl = import.meta.env.BASE_URL
 
   useEffect(() => {
-    const countDownDate = new Date("Sept 7, 2025 19:20:00").getTime()
+    const countDownDate = new Date("Sept 10, 2026 19:20:00").getTime()
 
     const updateCountdown = () => {
       const now = new Date().getTime()
@@ -73,7 +73,7 @@ const Tradition = () => {
             </GradientText>
           </p>
 
-          <p className="text-green-700 text-2xl mt-6 mb-2">2025 Season Kickoff</p>
+          <p className="text-green-700 text-2xl mt-6 mb-2">2026 Season Kickoff</p>
           <p className="text-2xl">
             {isExpired ? (
               <span className="text-red-600 font-bold">EXPIRED</span>
@@ -129,10 +129,10 @@ const Tradition = () => {
             )}
           </div>
 
-          {/* 2025 Schedule */}
+          {/* 2026 Opponents */}
           <div className="mt-8">
-            <p className="text-green-700 text-xl mb-4">2025 Schedule</p>
-            <img src={`${baseUrl}img/Packers_2025_schedule.jpeg`} alt="2025 Schedule" className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition" />
+            <p className="text-green-700 text-xl mb-4">2026 Opponents</p>
+            <img src={`${baseUrl}img/Packers_opponents_2026.jpeg`} alt="2026 Opponents" className="w-full max-w-md rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition" />
           </div>
         </div>
       </div>
