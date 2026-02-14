@@ -29,7 +29,7 @@ const Footer = () => {
                 <FaFacebookF size={20} className="text-white" />
               </a>
               <a
-                href="https://twitter.com/LucasStahl11"
+                href="https://x.com/LukeStahl11"
                 className="w-12 h-12 bg-yellow-500 hover:bg-yellow-600 rounded-full flex items-center justify-center transition-all hover:scale-110"
                 target="_blank"
                 rel="noopener noreferrer"

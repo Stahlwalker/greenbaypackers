@@ -35,7 +35,7 @@ const Header = () => {
                  aria-label="Facebook">
                 <FaFacebookF size={20} className="text-white" />
               </a>
-              <a href="https://twitter.com/LucasStahl11"
+              <a href="https://x.com/LukeStahl11"
                  className="w-10 h-10 bg-yellow-500 hover:bg-yellow-600 rounded-full flex items-center justify-center transition"
                  target="_blank" rel="noopener noreferrer"
                  aria-label="X (formerly Twitter)">
