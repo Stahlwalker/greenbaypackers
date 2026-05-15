@@ -129,10 +129,10 @@ const Tradition = () => {
             )}
           </div>
 
-          {/* 2026 Opponents */}
+          {/* 2026 Schedule */}
           <div className="mt-8">
-            <p className="text-green-700 text-xl mb-4">2026 Opponents</p>
-            <img src={`${baseUrl}img/Packers_opponents_2026.jpeg`} alt="2026 Opponents" className="w-full max-w-md rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition" />
+            <p className="text-green-700 text-xl mb-4">2026 Schedule</p>
+            <img src={`${baseUrl}img/2026_schedule.JPG`} alt="2026 Schedule" className="w-full max-w-md rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition" />
           </div>
         </div>
       </div>
